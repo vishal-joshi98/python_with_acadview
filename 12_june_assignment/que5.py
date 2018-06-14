@@ -12,3 +12,6 @@ if n < 0:
 else:
     f = fact(n)
 print("FACTORIAL OF ", n, " =", f)
+dic = {}
+dic[n] = f
+print(dic)
