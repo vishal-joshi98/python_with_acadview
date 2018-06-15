@@ -1,0 +1,6 @@
+import time  #IMPORTING TIME MODULE FOR LOCALTIME
+def tim():   # FUNTION FOR PRINT TIME USINHG LOCAL TIME METHOD
+    s1 = time.localtime(time.time())
+    print(" \n TIME USING LOCAL TIME METHOD : \n",s1)
+
+tim()  # CALLING FUNCTION FOR PRINTING TIME
