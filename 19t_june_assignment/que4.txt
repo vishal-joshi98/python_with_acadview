@@ -1,0 +1,30 @@
+LIBRARY :-
+1>  A library is a collection of code built to perform common tasks
+
+2>  Library is written in same language  in which it is used
+
+3>  Library code tends to be relatively stable and bug free.
+
+4>  Use of appropriate libraries can reduce the amount of code the need to be
+    written. It will tend to reduce line of code counts for an application
+    will increasing the rate at which functionality is delivered.
+
+5> Usually, it's better to use a library routine than to write own code.
+
+6>e.g. Numpy is a library of Python for matrices & mathematical handling,
+       math is a library to handle numberal operations
+
+
+ API :-
+ 1>  API is a part of library which defines how an application communicates with external code .
+
+ 2>  API can be written in any language
+
+ 3>  APIs should be defined before the code implementing them is implemented.
+
+ 4>  APIs should be stable, although portions of the API can be deprecated
+
+ 5>  The more broadly used the API the more difficult it is to change it.
+
+ 6>  e.g. Google Maps API for JavaScript, flickrj is API for Flickr in JAVA
+     tweepy is an API for Twitter, spotipy is an API for Spotify
